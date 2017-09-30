@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class ProductFabricatorsTest < ActiveSupport::TestCase
+class ProductTest < ActiveSupport::TestCase
   def test_discounters
     Product.create! title: 'Pink Hat', price: 1500
     Product.create! title: 'Dark Hat', price: 1900
