@@ -1,12 +1,8 @@
 require 'test_helper'
 
-class ProductFabricatorsTest < ActiveSupport::TestCase
+class ArtistTest < ActiveSupport::TestCase
   def test_discounters
-    Product.create! title: 'Pink Hat', price: 1500
-    Product.create! title: 'Dark Hat', price: 1900
-    Product.create! title: 'Yellow Hat', price: 9900
-
-    assert_equal 2, Product.discounters.count
+    assert_equal 2, Artist.popstars.count
   end
 
   # Make MiniTest think that we have X number of tests instead of one in this class

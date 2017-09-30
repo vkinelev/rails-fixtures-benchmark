@@ -1,0 +1,16 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+beyonce:
+  title: Beyonce
+  rating: 1
+  slug: beyonce
+
+lady_gaga:
+  title: Lady Gaga
+  rating: 2
+  slug: lady-gaga
+
+adele:
+  title: Adele
+  rating: 3
+  slug: adele
